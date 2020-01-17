@@ -63,3 +63,13 @@ $(document).keydown(
     }
   }
 )
+
+
+$('i.fa-circle.first').click(
+  function(){
+   $('img.first').addClass('active');
+   $('img').removeClass('active');
+
+}
+
+);
